@@ -1,4 +1,7 @@
 <style type="text/css">
+body {
+   margin: 0;
+}
 .mask {
    display: none;
    position: fixed;
@@ -33,11 +36,3 @@ a {
    text-align: center;
 }
 </style>
-btn.addEventListener('click', function() {
-   mask.style.display = 'block';
-   nav.style.left = '0';
-})
-mask.addEventListener('click', function() {
-   mask.style.display = 'none';
-   nav.style.left = '-30rem';
-})
