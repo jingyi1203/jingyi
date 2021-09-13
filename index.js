@@ -3,11 +3,6 @@ let btn = document.getElementsByClassName('btn')[0],
     nav = document.getElementsByClassName('nav')[0];
 
 
-
-var timer = null;
-function startMove(iTargat){
-    clearInterval(timer);
-
 btn.addEventListener('click', function() {
    mask.style.display = 'block';
    nav.style.left = '0';
