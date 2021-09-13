@@ -1,7 +1,7 @@
 .btn {
    position: absolute;
    z-index: 2;
-   left: 50;
+   left: 30%;
    top: 50;
 }
 .nav {
@@ -14,7 +14,7 @@
     background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 30px;
+    padding-top: 10%;
 }
 .nav a {
     padding: 25px 5px 5px 30px;
@@ -24,6 +24,8 @@
     display: block;
     transition: 0.3s;
 }
+.nav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
 .nav .closebtn {
     position: absolute;
     top: 0;
