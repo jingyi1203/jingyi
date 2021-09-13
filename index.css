@@ -14,7 +14,6 @@ body {
 .nav {
    position: absolute;
    z-index: 11;
-   right: -60rem;
    top: 0;
    width: 60rem;
    height: 100%;
