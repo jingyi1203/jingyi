@@ -4,10 +4,10 @@ let btn = document.getElementsByClassName('btn')[0],
 
 btn.addEventListener('click', function() {
    mask.style.display = 'block';
-   nav.style.right = '0';
+   nav.style.left = '0';
 }, false);
 
 mask.addEventListener('click', function() {
    mask.style.display = 'none';
-   nav.style.right = '-30rem';
+   nav.style.left = '-30rem';
 }, false)
