@@ -3,7 +3,13 @@
    <head>
       <title>Home</title>
       <!--meta tags -->
+      <script>
+         var documentElement = document.documentElement;
+         documentElement.style.fontSize = documentElement.getBoundingClientRect().width
+      </script>
+      <link rel="stylesheet" type="text/css" href="./index.css">
    </head>   
+<body>
    <form>
       <input name="" type="image" src="hhh.png" class="btn" />
    </form>
@@ -12,51 +18,11 @@
    <div class="nav">
       <ul>
          <li>
-            <a href="#">新增史料</a>
+            <a><alt = ""></a>
+            <a>新增史料</a>
          </li>
       </ul>
    </div>
-<style type="text/css">
-.mask {
-   display: none;
-   position: fixed;
-   z-index: 10;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%
-   background: rgba(0,0,0,0.1)
-}
-.nav {
-   position: absolute;
-   z-index: 11;
-   left: -30rem;
-   top: 0;
-   width: 30rem;
-   height: 100%;
-   background-color: #fff;
-   transition: left linear 0.3s;
-}
-ul,li {
-   list-style: none;
-}
-a {
-   text-decoration: none;
-}
-.nav a {
-   display: block;
-   color: #888;
-   front-size: 2rem;
-   padding: 1rem 0;
-   text-align: center;
-}
-</style>
-btn.addEventListener('click', function() {
-   mask.style.display = 'block';
-   nav.style.left = '0';
-})
-mask.addEventListener('click', function() {
-   mask.style.display = 'none';
-   nav.style.left = '-30rem';
-})
+   <script type="text/javascript" src="./index.js"></script>
+</body>
 </html>
