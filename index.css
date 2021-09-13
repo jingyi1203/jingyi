@@ -14,7 +14,7 @@
     background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 10%;
+    padding-top: 60px;
 }
 .nav a {
     padding: 25px 5px 5px 30px;
@@ -31,7 +31,6 @@
     top: 0;
     right: 25px;
     font-size: 20px;
-    margin-left: 70px;
 }
 @media screen and (max-height: 450px) {
   .nav {padding-top: 15px;}
