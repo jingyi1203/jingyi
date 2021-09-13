@@ -9,5 +9,5 @@ btn.addEventListener('click', function() {
 
 mask.addEventListener('click', function() {
    mask.style.display = 'none';
-   nav.style.left = '-30rem';
+   nav.style.left = '-60rem';
 }, false)
