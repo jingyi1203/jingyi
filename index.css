@@ -14,12 +14,12 @@ body {
 .nav {
    position: absolute;
    z-index: 11;
-   left: -30rem;
+   right: -60rem;
    top: 0;
-   width: 30rem;
+   width: 60rem;
    height: 100%;
    background-color: #fff;
-   transition: left linear 0.3s;
+   transition: right linear 0.3s;
 }
 .btn {
    position: absolute;
