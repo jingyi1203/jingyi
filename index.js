@@ -2,12 +2,16 @@ let btn = document.getElementsByClassName('btn')[0],
     mask = document.getElementsByClassName('mask')[0],
     nav = document.getElementsByClassName('nav')[0];
 
-btn.addEventListener('click', function() {
-   mask.style.display = 'block';
-   nav.style.left = 0;
-}, false);
+function showNav(){
+    mask.fadeIn();
+    nav.animate({'right':0});
+}
 
-mask.addEventListener('click', function() {
-   mask.style.display = 'none';
-   nav.style.left = '-60rem';
-}, false)
+function hideNav(){
+    mask.fadeOut();
+    nav.css('right',-nav.width());
+    console.log("mask");
+}
+
+btn.on('click',showNav);
+mask.click(hideNav);
