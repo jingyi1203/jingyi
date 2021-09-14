@@ -15,7 +15,7 @@
     overflow-x: hidden;
     transition: 0.5s;
 }
-.nav a {
+.nav label {
     padding: 20px 5px;
     text-decoration: none;
     font-size: 15px;
