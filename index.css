@@ -11,6 +11,7 @@
     z-index: 1;
     top: 0;
     right: 0;
+    display: none
     background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
